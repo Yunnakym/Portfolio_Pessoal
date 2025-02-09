@@ -1,0 +1,80 @@
+/*Zerar a margem da página*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #efdcdc !important;
+}
+
+header{
+    background-color: #D09393;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+.img-perfil{
+    width: 10%;
+    border-radius: 50%;
+}
+footer{
+    background-color: #D09393;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+.conteudo{
+    background-color: #E5C4C4 !important;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 100%;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.principal{
+    text-align: center;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-bottom: 15% !important;
+}
+.img-icone{
+    width: 150% !important;
+}
+.txt-icone{
+    font-size: 200% !important;
+   /* text-align: center;*/
+    padding: 0.5em;
+}
+@media (min-width: 200px) and (max-width: 768px){
+    .img-icone{
+        width: 250% !important;
+    }
+    .txt-icone{
+        font-size: 150% !important;
+    }
+    .conteudo{
+        background-color: #E5C4C4 !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130%;
+    }
+    .principal{
+        text-align: center;
+        margin-left: 10% !important;
+        margin-right: 25% !important;
+        margin-top: 1% !important;
+        margin-bottom: 50% !important;
+    }
+    .img-perfil{
+        width: 30% !important;
+        border-radius: 50% !important;
+    }
+    
+
+}
