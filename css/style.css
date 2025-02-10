@@ -31,9 +31,12 @@ footer{
     border-radius: 30px !important;
     width: 100%;
 }
+
+/*link*/
 a{
     text-decoration: none !important;
     color: black !important;
+    text-align: justify !important;
 }
 .principal{
     text-align: center;
@@ -43,7 +46,7 @@ a{
     margin-bottom: 15% !important;
 }
 .img-icone{
-    width: 150% !important;
+    width: 100% !important;
 }
 .txt-icone{
     font-size: 200% !important;
@@ -55,7 +58,7 @@ a{
         width: 250% !important;
     }
     .txt-icone{
-        font-size: 150% !important;
+        font-size: 100% !important;
     }
     .conteudo{
         background-color: #E5C4C4 !important;
@@ -69,7 +72,7 @@ a{
         margin-left: 10% !important;
         margin-right: 25% !important;
         margin-top: 1% !important;
-        margin-bottom: 50% !important;
+        margin-bottom: 70% !important;
     }
     .img-perfil{
         width: 30% !important;
