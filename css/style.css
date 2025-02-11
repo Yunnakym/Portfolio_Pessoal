@@ -24,23 +24,25 @@ footer{
     text-align: center;
     padding: 1em;
 }
+/*onde estão os Links "imagens do zap, inst...*/
 .conteudo{
     background-color: #E5C4C4 !important;
-    padding: 2em !important;
-    margin-top: 1em !important;
-    border-radius: 30px !important;
-    width: 100%;
+    padding: 1em !important;
+    margin-top: 2em !important;
+    border-radius: 50px !important;
+    width:80%;
 }
 
 /*link*/
 a{
     text-decoration: none !important;
     color: black !important;
-    text-align: justify !important;
+    text-align: center !important;
 }
+/*muda a largura onde estão os links*/
 .principal{
     text-align: center;
-    margin-left: 25% !important;
+    margin-left: 30% !important;
     margin-right: 25% !important;
     margin-top: 1% !important;
     margin-bottom: 15% !important;
@@ -51,7 +53,7 @@ a{
 .txt-icone{
     font-size: 200% !important;
    /* text-align: center;*/
-    padding: 0.5em;
+    /*padding: 0.5em;*/
 }
 @media (min-width: 200px) and (max-width: 768px){
     .img-icone{
@@ -70,14 +72,12 @@ a{
     .principal{
         text-align: center;
         margin-left: 10% !important;
-        margin-right: 25% !important;
+        margin-right: 32% !important;
         margin-top: 1% !important;
         margin-bottom: 70% !important;
     }
     .img-perfil{
         width: 30% !important;
         border-radius: 50% !important;
-    }
-    
-
+    } 
 }
